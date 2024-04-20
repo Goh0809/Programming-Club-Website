@@ -1,0 +1,221 @@
+.topbanner {
+    height: 400px;
+    background: url(../img/program\(se\).jpg) no-repeat center bottom / cover;
+    padding-top: 350px;
+    padding-left: 125px;
+}
+
+.topbanner-Html {
+    height: 400px;
+    background: url(../img/program_01.jpeg) no-repeat center -200px/ cover;
+    padding-top: 350px;
+    padding-left: 125px;
+}
+
+.topbanner-Java {
+    height: 400px;
+    background: url(../img/program\(Java\).png) no-repeat center -235px/ cover;
+    padding-top: 350px;
+    padding-left: 125px;
+}
+
+.bannerDesc {
+    height: 80px;
+    width: 600px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    padding-top: 15px;
+}
+
+.bannerDesc-Java {
+    height: 80px;
+    width: 700px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    padding-top: 15px;
+}
+
+.bannerDesc h1 {
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.bannerDesc-html h1 {
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.bannerDesc-Java h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.programDesc {
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.programDesc .wrapper {
+    max-height: 1350px;
+}
+
+.programDesc .duration {
+    padding-left: 150px;
+}
+
+.programDesc li strong {
+    color: rgb(98, 97, 97);
+    font-size: 20px;
+
+}
+
+p strong {
+    color: black;
+    font-size: 25px;
+}
+
+.intake {
+    display: inline-block
+}
+
+.duration {
+    margin-left: 200px;
+    display: inline-block
+}
+
+.apply {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #666;
+    cursor: pointer
+}
+
+.apply p a {
+    color: white;
+}
+
+.apply:hover {
+    background-color: black;
+    transform: translateY(-2px);
+    transition: linear 0.2s
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.CourseNavbar {
+    margin-top: 30px;
+    height: 120px;
+    background-color: #e4e4e4;
+}
+
+.fee .wrapper {
+    width: 1500px;
+}
+
+.wrapper .navibar ul li {
+    cursor: pointer;
+    float: left;
+    padding: 0 30px;
+    line-height: 120px;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    border-right: solid #e4e4e4;
+    background-color: #e4e4e4;
+    transition: all 0.2s linear;
+}
+
+
+
+.wrapper .navibar ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.wrapper .scholarship {
+    float: left;
+    height: 60px;
+    width: 280px;
+    line-height: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 70px;
+    margin-top: 80px;
+    color: white;
+    background-color: red;
+}
+
+
+
+.Objectives {
+    width: 100%;
+    height: 430px;
+    color: #000;
+}
+
+.Objectives .oppurtunities .wrapper {
+    width: 1500px;
+}
+
+.Objectives h1 {
+    padding-top: 20px;
+}
+
+.Objectives h4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+.Objectives li {
+    margin-left: 80px;
+    list-style: initial;
+    font-size: 20px;
+    color: rgb(110, 106, 106)
+}
+
+.Objectives .feeDesc {
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 1056px;
+}
+
+.tab-content .Objectives {
+    display: none;
+}
+
+.tab-content .Objectives.active {
+    display: block;
+}
+
+.fee {
+    width: 0px;
+}
+
+.fee .wrapper {
+    height: 260px;
+}
+
+.oppurtunities .wrapper h4 {
+    size: 20px;
+}

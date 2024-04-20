@@ -1,0 +1,213 @@
+/* Program header part */
+.program_header_img {
+    width: 100%;
+    height: 500px;
+    background: url(../img/program_header.jpeg) no-repeat center center/ cover;
+    padding-top: 75px;
+}
+.program_header_box {
+    height: 350px;
+    width: 500px;
+    background-color: rgba(45, 40, 40, 0.8);
+    border-radius: 10px;
+
+}
+
+.header_box_text .title {
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.header_box_text .content {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.header_box_applynow  {
+    margin-top: 30px;
+    margin-left: 155px;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 11px 0 rgba(0,0,0,.22);
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.header_box_applynow:hover {
+  transform: translateY(-2px);
+  background-color: #ED1B24;
+}
+
+.header_box_applynow:hover a {
+  transform: translateY(-2px);
+  color: #fff;
+}
+/* Program details */
+.program_detail {
+    height: 230px;
+}
+
+.program_detail_title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(237, 23, 36);
+    margin-top: 20px;
+}
+
+.program_detail_description {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+/* program  */
+.program .program_hp {
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .program .program_hp h1 {
+    float: left;
+    font-weight: 400;
+    font-size: 38px;
+    text-decoration: underline;
+  }
+  
+  .view-all {
+    float: right;
+  }
+  
+  .view-all a {
+    display: inline-block;
+    margin-top: 28px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ED1B24;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+  }
+  
+  .view-all a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 5px #666;
+  }
+  
+  .program .program_bp {
+    margin: 10px 0;
+    height: 1550px;
+  }
+  
+  .program .program_bp .program_category {
+    display: flex;
+    justify-content: space-between;
+    height: 475px;
+    width: 100%;
+  }
+  .program .program_bp .program_category:nth-child(2) {
+    margin-top: 50px;
+  }
+  .program .program_bp .program_category:nth-child(3) {
+    margin-top: 50px;
+  }
+  
+  .program .program_bp .program_category li {
+    /* flex: 1; */
+    margin-right: 75px;
+    height: 475px;
+    width: 400px;
+    background-color: #f5f5f5;
+    border: 1px solid #fff;
+    box-shadow: 0 3px 11px 0 rgba(0,0,0,.22);
+    transition: all 0.2s linear;
+  }
+
+  .program .program_bp .program_category li:hover {
+    transform: scale(1.01);
+  }
+  
+  .program .program_bp .program_category li img {
+    width: 400px;
+    height: 300px;
+  }
+  
+  .program .program_bp .program_category li .program_description {
+    padding-left: 10px;
+  }
+  
+  .program .program_bp .program_category li h4 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .program .program_bp .program_category li span {
+    display: inline-block;
+    line-height: 25px;
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .program .program_bp .program_category li a {
+    position: relative;
+    display: block;
+    margin-top: 8px;
+    padding-left: 10px;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    background-color: #ED1B24;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.2s linear;
+  }
+  
+  .program .program_bp .program_category li a i {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    font-size: 25px;
+  }
+  
+  .program .program_bp .program_category li a:hover {
+    background-color: #000;
+  }
+
+  .lift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    cursor: pointer;
+    transition: right 0.5s linear ;
+    
+  }
+  
+  .lift i {
+    color: #fff;
+    font-size: 25px;
+  }

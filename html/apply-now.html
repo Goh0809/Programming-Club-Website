@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply now</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/apply_now.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Outfit&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header part  -->
+    <div class="header">
+        <div class="wrapper">
+            <!-- <span class="contact"><a href="tel:+603 8996 1000">+603 8996 1000</a></span>
+            <span class="email"><a href="mailto:info@apu.edu.my">info@apu.edu.my</a></span> -->
+            <ul class="header-nav">
+                <li><a href="https://www.facebook.com/apuniversity/" class="icon-moon"></a></li>
+                <li><a href="https://www.instagram.com/asiapacificuniversity/" class="icon-moon"></a></li>
+                <li><a href="https://twitter.com/AsiaPacificU" class="icon-moon"></a></li>
+                <li><a href="https://www.youtube.com/c/asiapacificuniversitykualalumpur" class="icon-moon"></a></li>
+                <li><a href="https://www.linkedin.com/school/apumalaysia" class="icon-moon"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- header part  -->
+
+    <!-- navigation bar part -->
+    <div class="navigation-bar">
+        <div class="wrapper">
+            <ul>
+                <li id="logo">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="../img/apu_logo.png" alt="">
+                            <span>Programming Club</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="program.html">Program</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        <li><a href="video.html">Video</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="apply-now">
+                        <a href="apply-now.html">JOIN NOW</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navigation bar part -->
+
+    <!-- apply_now_banner -->
+    <div class="apply_now_banner">
+        <div class="shadow"></div>
+        <div class="wrapper">
+            <div class="apply_now_box">
+                <h1>Apply a Program</h1>
+                <span>Looking to unlock your potential and advance your career? Why not study with us? We have a program
+                    for you!</span>
+            </div>
+        </div>
+    </div>
+    <!-- apply_now_banner -->
+
+    <!-- apply form  -->
+    <div class="apply_form_area">
+        <div class="wrapper">
+            <h1>Why Us</h1>
+            <div class="description">
+                <ul>
+                    <li><span><i class="icon-moon"></i></span>
+                        <p>Abundant learning resources, Skill enhancement</p>
+                    </li>
+                    <li><span><i class="icon-moon"></i></span>
+                        <p>Inspiring guest speakers and engaging events</p>
+                    </li>
+                    <li><span><i class="icon-moon"></i></span>
+                        <p>Supportive and inclusive community</p>
+                    </li>
+                    <li><span><i class="icon-moon"></i></span>
+                        <p>Collaborative learning</p>
+                    </li>
+                </ul>
+                <!-- <h1>Choose Your Program</h1>
+                 -->
+                <ul>
+                    <li>
+                        <h4>Our Most Popular Program:</h4>
+                    </li>
+                    <li><a href="python(program).html">Learn Python As Easy As Possible</a></li>
+                    <li><a href="html(program).html">Web evelopment fundamental</a></li>
+                    <li><a href="java(program).html">Java Object Oriented Programming</a></li>
+                    <li>
+                        <p>Click <a href="program.html" class="red-text" target="_blank">HERE</a> for a list of program of study.</p>
+                    </li>
+                </ul>
+                <div class="call">
+                    <p align="justify">If you would like to speak to a course adviser, please call our enquiry line on
+                        <a href="tel:+60 19 879 1221" class="red-text">+60 19 879 1221</a> (Phek Yi Tong).
+                        Operating hours are Monday to Friday from 9am to 5pm, GMT +08:00.
+                        Otherwise, please complete the form below and we'll respond to your enquiry within three
+                        business
+                        days.</p>
+                </div>
+            </div>
+            <div class="apply_form_content">
+                <h1>Join Our Club</h1>
+                <p>Fills the form below to apply a program</p>
+                <p>Fields marked <sup class="red-text">*</sup> are mandatory fields.</p>
+                <p><strong>J</strong>oin our programming club and unlock your coding potential! Expand your skills, network with like-minded individuals, and embark on exciting coding adventures. Join us today!</p>
+                
+                <form class="apply_form" autocomplete="off" novalidate>
+                    <div class="apply_form_items">
+                        <span>Name:</span>
+                        <input type="text" name="Name">
+                        <span class="msg red-text">This field is required</span>
+                    </div>
+                    <div class="apply_form_items">
+                        <span>Email:</span>
+                        <input type="email" name="Email">
+                        <span class="msg red-text" id="email_msg">This field is required</span>
+                    </div>
+                    <div class="apply_form_items">
+                        <span>Contact Number:</span>
+                        <input type="tel" name="contact_number">
+                        <span class="msg red-text" id="contact_msg">This field is required</span>
+                    </div>
+                    <div class="apply_form_items">
+                        <span>State:</span>
+                        <select name="State">
+                            <option value="" disabled selected>Select</option>
+                            <option value="Kuala Lumpur">Kuala Lumpur</option>
+                            <option value="Putrajaya">Putrajaya</option>
+                            <option value="Johor">Johor</option>
+                            <option value="Kedah">Kedah</option>
+                            <option value="Kelantan">Kelantan</option>
+                            <option value="Labuan">Labuan</option>
+                            <option value="Melaka">Melaka</option>
+                            <option value="Negeri Sembilan">Negeri Sembilan</option>
+                            <option value="Pahang">Pahang</option>
+                            <option value="Perak">Perak</option>
+                            <option value="Perlis">Perlis</option>
+                            <option value="Pulau">Pulau Pinang</option>
+                            <option value="Sabah">Sabah</option>
+                            <option value="Sarawak">Sarawak</option>
+                            <option value="Selangor">Selangor</option>
+                            <option value="Terengganu">Terengganu</option>
+                            <option value="other country">Other Country</option>
+                        </select>
+                        <span class="msg red-text">This field is required</span>
+                    </div>
+                    <div class="apply_form_items">
+                        <input type="checkbox" name="Agree">
+                        <p>I agree to the <a href="terms.html" class="red-text">terms & conditions</a> and <a href="policy.html"
+                                class="red-text">privacy policy</a>.</p>
+                    </div>
+                    <div class="apply_form_items">
+                        <input type="submit" value="Join Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- apply form  -->
+
+    <!-- footer part -->
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer_information">
+                <img src="../img/apu_logo_02.png" alt="">
+                <ul class="descrip">
+                    <li class="contact"><a href="tel:+603 8996 1000">+603 8996 1000</a></li>
+                    <li><a href="tel:+">1 300 888 278 (Toll-free)</a></li>
+                    <li class="email"><a href="mailto:info@apu.edu.my">info@apu.edu.my</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="policy.html">Privacy policy</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="google_map">
+                <div class="location">
+                    <i class="icon-moon red-text"></i>
+                    Technology Park Malaysia 57000, Bukit Jalil Kuala Lumpur, Malaysia.
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.14662745759!2d101.69798647457796!3d3.055405696920368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4abb795025d9%3A0x1c37182a714ba968!2sAsia%20Pacific%20University%20of%20Technology%20%26%20Innovation%20(APU)!5e0!3m2!1sen!2smy!4v1684975761726!5m2!1sen!2smy"
+                    frameborder="0"></iframe>
+            </div>
+            <div class="star">
+                <img src="../img/MDEC.png" alt="" class="MDEC">
+                <img src="../img/5star.png" alt="" class="stars">
+            </div>
+        </div>
+    </div>
+    <!-- footer part -->
+    <script src="../scripts/applynow.js"></script>
+</body>
+
+
+</body>
+
+</html>

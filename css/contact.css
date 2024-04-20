@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* h1 {
+    width: 100px;
+    height: 80px;
+    border-width: 5px;
+    border-style: solid;
+} */
+
+.contact_us {
+    min-height: 100vh;
+    background: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/apubgc_01.jpg) no-repeat center center / cover;
+}
+
+.contact_us form {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur;
+    flex-wrap: wrap;
+}
+
+.contact_us form h1 {
+    font-weight: 50px;
+    margin-top: 60px;
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+
+.contact_us form input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contact_us form select {
+    width: 720px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.contact_us form #lastname,
+.contact_us form #mobile {
+    margin-left: 20px;
+}
+
+.contact_us form h3 {
+    font-weight: 700;
+    width: 600px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -110px;
+}
+
+.contact_us form textarea {
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 10px;
+    min-width: 720px;
+    max-width: 720px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.contact_us form #button {
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 100px;
+    padding: 0;
+    margin-right: 620px;
+}
+
+.contact_us form #button:hover {
+    background-color: greenyellow
+}
+
+.footer {
+    margin-top: 0;
+}

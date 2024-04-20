@@ -1,0 +1,57 @@
+.box {
+    padding: 50px 20px 0 20px;
+    width: 600px;
+    height: 700px;
+    background: url(../img/paper.jpg);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.form_area {
+    position: relative;
+    padding: 30px 20px 0 20px;
+    width: 100%;
+    height: 850px;
+    background-color: #ccc;
+    color: grey;
+    background: url(../img/table.jpg);
+    background-position: center;
+
+}
+
+textarea {
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.button button {
+    width: 300px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    margin: 10px;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+.feedbanner h1{
+    position: relative;
+    left: 550px;
+    top: 25px;
+    background-color: red;
+    opacity: 0.8;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}

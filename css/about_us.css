@@ -1,0 +1,220 @@
+.topbanner {
+    height: 500px;
+    background: url(../img/aboutus.jpg) no-repeat center center / cover;
+    padding-top: 90px;
+    padding-left: 125px;
+}
+
+strong {
+    font-size: 25px;
+    color: black
+}
+
+
+.box1 {
+    height: 350px;
+}
+
+.desc {
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.desc h1 {
+    font-size: 4px;
+}
+
+.desc p {
+    font-size: 15px;
+}
+
+
+.wrapper {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.wrapper1 {
+    width: 1350px;
+    margin: 30px auto 40px;
+}
+
+.clubdesc {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, .2);
+}
+
+.descbox1 {
+    float: left;
+    margin-left: 70px;
+    padding-top: 40px;
+    height: 300px;
+    width: 780px;
+    background-color: white;
+}
+
+.descbox1 h1 {
+    font-size: 45px;
+}
+
+.descbox1 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.descbox2 {
+    float: right;
+    /* margin-right: 150px; */
+    background-color: #000;
+    height: 300px;
+    width: 350px;
+
+}
+
+.descbox2 .image {
+    background: url(../img/aboutus\(picture1\).png) no-repeat center 30px/cover;
+    width: 100%;
+    height: 300px;
+}
+
+.box1 {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, .2);
+}
+
+.firstPicture {
+    float: left;
+    margin-left: 10px;
+    height: 300px;
+    width: 500px;
+    background: url(../img/aboutus\(what\).jpg) no-repeat center -45px / cover;
+}
+
+
+
+.firstContent {
+    float: left;
+    padding-top: 35px;
+    padding-left: 40px;
+    height: 300px;
+    width: 750px;
+    background-color: #fff;
+}
+
+.firstContent h1 {
+    font-size: 45px;
+    text-align: left;
+
+}
+
+.firstContent p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box2 {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, .2);
+}
+
+.secondContent {
+    float: left;
+    margin-left: 70px;
+    padding-top: 85px;
+    height: 300px;
+    width: 780px;
+    background-color: white;
+}
+
+.secondContent h1 {
+    font-size: 55px;
+}
+
+.secondContent p {
+    font-size: 20px;
+    text-indent: 2em;
+}
+
+.secondPicture {
+    float: right;
+    height: 300px;
+    width: 350px;
+    background: url(../img/aboutus\(picture2\).png) no-repeat center /cover;
+}
+
+.box3 {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, .2);
+}
+
+.thirdPicture {
+    float: left;
+    margin-right: 50px;
+    height: 100%;
+    width: 500px;
+    background: url(../img/aboutus\(picture3\).png) no-repeat center -30px / cover;
+}
+
+
+
+.thirdContent {
+    float: left;
+    height: 300px;
+    width: 650px;
+    padding-top: 80px;
+    background-color: white;
+}
+
+.thirdContent h1 {
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.thirdContent p {
+    font-size: 20px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+
+.box4 {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, .2);
+}
+
+.forthContent {
+    float: left;
+    margin-left: 70px;
+    padding-top: 100px;
+    height: 300px;
+    width: 780px;
+    background-color: white;
+}
+
+.forthContent h1 {
+    font-size: 55px;
+}
+
+.forthContent p {
+    font-size: 20px;
+    text-indent: 2em;
+}
+
+.forthPicture {
+    float: right;
+    margin-right: 50px;
+    background: url(../img/aboutus\(picture4\).png) no-repeat center 10px /cover;
+    height: 300px;
+    width: 400px;
+}
